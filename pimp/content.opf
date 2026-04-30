@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:publisher>Simon &amp; Schuster, Inc.</dc:publisher>
+    <dc:language>en</dc:language>
+    <dc:creator opf:file-as="Slim, Iceberg" opf:role="aut">Slim, Iceberg</dc:creator>
+    <meta name="calibre:timestamp" content="2012-05-31T08:32:41.420045+00:00"/>
+    <dc:title>Pimp</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2011-05-09T22:00:00+00:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (0.8.51) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">a458d142-243a-4ef2-98fd-e6e23d63c075</dc:identifier>
+  </metadata>
+  <manifest>
+    <item href="images/calibre_cover.jpg" id="cover" media-type="image/jpeg"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_000.html" id="id134" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_001.html" id="id133" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_002.html" id="id132" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_003.html" id="id131" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_004.html" id="id130" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_005.html" id="id129" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_006.html" id="id128" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_007.html" id="id127" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_008.html" id="id126" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_009.html" id="id125" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_010.html" id="id124" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_011.html" id="id123" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_012.html" id="id122" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_013.html" id="id121" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_014.html" id="id120" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_015.html" id="id119" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_016.html" id="id118" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_017.html" id="id117" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_018.html" id="id116" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_019.html" id="id115" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_020.html" id="id114" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_021.html" id="id113" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_022.html" id="id112" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_023.html" id="id111" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_024.html" id="id110" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_025.html" id="id19" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_026.html" id="id18" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_027.html" id="id17" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_028.html" id="id16" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_029.html" id="id15" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_030.html" id="id14" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_031.html" id="id13" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_032.html" id="id12" media-type="application/xhtml+xml"/>
+    <item href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_033.html" id="id11" media-type="application/xhtml+xml"/>
+    <item href="images/00002.jpg" id="id3" media-type="image/jpeg"/>
+    <item href="images/00010.jpg" id="id4" media-type="image/jpeg"/>
+    <item href="images/00011.jpg" id="id5" media-type="image/jpeg"/>
+    <item href="images/00012.jpg" id="id6" media-type="image/jpeg"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="id134"/>
+    <itemref idref="id133"/>
+    <itemref idref="id132"/>
+    <itemref idref="id131"/>
+    <itemref idref="id130"/>
+    <itemref idref="id129"/>
+    <itemref idref="id128"/>
+    <itemref idref="id127"/>
+    <itemref idref="id126"/>
+    <itemref idref="id125"/>
+    <itemref idref="id124"/>
+    <itemref idref="id123"/>
+    <itemref idref="id122"/>
+    <itemref idref="id121"/>
+    <itemref idref="id120"/>
+    <itemref idref="id119"/>
+    <itemref idref="id118"/>
+    <itemref idref="id117"/>
+    <itemref idref="id116"/>
+    <itemref idref="id115"/>
+    <itemref idref="id114"/>
+    <itemref idref="id113"/>
+    <itemref idref="id112"/>
+    <itemref idref="id111"/>
+    <itemref idref="id110"/>
+    <itemref idref="id19"/>
+    <itemref idref="id18"/>
+    <itemref idref="id17"/>
+    <itemref idref="id16"/>
+    <itemref idref="id15"/>
+    <itemref idref="id14"/>
+    <itemref idref="id13"/>
+    <itemref idref="id12"/>
+    <itemref idref="id11"/>
+  </spine>
+  <guide>
+    <reference href="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_005.html#filepos3199" type="toc" title="contents"/>
+    <reference href="titlepage.xhtml" type="cover" title="Cover"/>
+  </guide>
+</package>

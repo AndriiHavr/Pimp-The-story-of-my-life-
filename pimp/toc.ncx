@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="a458d142-243a-4ef2-98fd-e6e23d63c075" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (0.8.51)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Pimp</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="747c07ea-abd3-40d7-ae84-d632a036acfd" playOrder="1">
+      <navLabel>
+        <text>F OREWORD</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_007.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="544c03e9-f9f6-4c34-be8a-a08490bc47fb" playOrder="2">
+      <navLabel>
+        <text>P REFACE</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_008.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="870bdd19-608a-48d4-9b79-cb84ee3d52c5" playOrder="3">
+      <navLabel>
+        <text>1 T ORN FROM THE N EST</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_009.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="5cb82249-7b54-41b4-8e35-8e35b740c028" playOrder="4">
+      <navLabel>
+        <text>2 F IRST S TEPS INTO THE J UNGLE</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_010.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="47c614e6-3405-4c57-bc7a-7eec40dc409d" playOrder="5">
+      <navLabel>
+        <text>3 S ALTY T RIP WITH P EPPER</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_011.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="cb4ca33c-3357-4289-92a5-1b20f51f6d84" playOrder="6">
+      <navLabel>
+        <text>4 A D EGREE IN P IMPING</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_012.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="19ae6ea3-a8f0-4c4e-ba2b-34fc77760319" playOrder="7">
+      <navLabel>
+        <text>5 T HE J UNGLE F AUNA</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_013.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="afa9f7cf-04b1-4a58-a353-65739c16afaf" playOrder="8">
+      <navLabel>
+        <text>6 D RILLING FOR O IL</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_014.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="9bc37825-b35f-4f3f-85a2-d1633b542056" playOrder="9">
+      <navLabel>
+        <text>7 M ELODY O FF K EY</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_015.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="12bf3998-5b1d-4805-b08f-94f8b3713eca" playOrder="10">
+      <navLabel>
+        <text>8 G RINNING S LIM</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_016.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="265a8fed-7bfa-470c-891d-ff72314a05b8" playOrder="11">
+      <navLabel>
+        <text>9 T HE B UTTERFLY</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_017.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="8a8bbc39-40a7-4ffd-aa45-2b4a1c5d8b09" playOrder="12">
+      <navLabel>
+        <text>10 T HE U NWRITTEN B OOK</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_018.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="573c58f7-ccd1-41b3-8518-fabe347c8d31" playOrder="13">
+      <navLabel>
+        <text>11 T O L OSE A W HORE</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_019.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="a968a342-c06a-40c9-a703-bd7f54297a33" playOrder="14">
+      <navLabel>
+        <text>12 T O G AIN A S TABLE</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_020.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="9f55320c-839e-4d1e-a176-59ccc2cb166f" playOrder="15">
+      <navLabel>
+        <text>13 T HE I CEBERG</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_021.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="f8b9972d-63eb-423f-9c93-d41ef8eea543" playOrder="16">
+      <navLabel>
+        <text>14 T HE M ISTAKE</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_022.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="965cf341-e823-4b61-b931-62ab978d4d90" playOrder="17">
+      <navLabel>
+        <text>15 I N A S EWER</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_023.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="bc599298-e241-4ebc-8cdb-8b481e4d8501" playOrder="18">
+      <navLabel>
+        <text>16 A WAY FROM THE T RACK</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_024.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="9888402d-7b02-44ab-a65a-2e44ef48b446" playOrder="19">
+      <navLabel>
+        <text>17 T RYING A N EW G AME</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_025.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="f3cbdc9a-b502-457e-badc-384912c09bed" playOrder="20">
+      <navLabel>
+        <text>18 J AILBREAK</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_026.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="38b9008e-dbfe-4a27-aca9-eaa0cfd16cd2" playOrder="21">
+      <navLabel>
+        <text>19 T HE I CE P ICK</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_027.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="bfb10e76-5c9f-45a0-b70c-264b7fdb74bb" playOrder="22">
+      <navLabel>
+        <text>20 S TABLE M OVES</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_028.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="dfe72b38-ae6e-44f7-a915-bb9d25030161" playOrder="23">
+      <navLabel>
+        <text>21 T HE S TEEL C ASKET</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_029.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="139d8628-891b-4719-a423-4c052b7c349f" playOrder="24">
+      <navLabel>
+        <text>22 D AWN</text>
+      </navLabel>
+      <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_030.html"/>
+      <navPoint class="chapter" id="e8391ae3-87a1-43e0-8e51-d99e6ec9935f" playOrder="25">
+        <navLabel>
+          <text>E PILOGUE</text>
+        </navLabel>
+        <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_031.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="2de1887b-d6ba-4aea-818c-0e4f689af88f" playOrder="26">
+        <navLabel>
+          <text>G LOSSARY</text>
+        </navLabel>
+        <content src="CR!PW72CSEHY50YS5D2MKGED29JPXV1_split_032.html"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

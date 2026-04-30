@@ -148,16 +148,37 @@ body {
 /* Адаптив для мобільних пристроїв */
 @media (max-width: 768px) {
   .navigation-sidebar {
-    min-width: 180px;
+    min-width: 280px;
+    max-width: 70vw;
+  }
+
+  .navigation-toggle-button {
+    width: 84px;
+    height: 84px;
+    top: 8px;
+    left: 8px;
+  }
+
+  .navigation-toggle-button .toggle-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .nav-title {
+    padding: 25px;
+    font-size: 20px;
   }
 
   .nav-link {
-    padding-left: 15px;
-    white-space: nowrap;
+    padding: 16px 18px;
+    font-size: 15px;
+    white-space: normal;
+    word-break: break-word;
   }
 
   body {
     padding: 20px 16px !important;
+    padding-top: 100px !important;
   }
 }
 

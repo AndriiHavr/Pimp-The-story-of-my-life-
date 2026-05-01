@@ -1,0 +1,29 @@
+{
+  "name": "pimp-the-story-of-my-life",
+  "version": "1.0.0",
+  "description": "Web adaptation of Iceberg Slim's autobiography",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "npx postcss src/assets/css/*.css -o dist/assets/css/ -u autoprefixer cssnano",
+    "build:js": "npx terser src/assets/js/navigation.js -o dist/assets/js/navigation.js",
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "serve": "^14.2.0",
+    "terser": "^5.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndriiHavr/Pimp-The-story-of-my-life-.git"
+  },
+  "author": "Andrii Havr",
+  "license": "MIT"
+}

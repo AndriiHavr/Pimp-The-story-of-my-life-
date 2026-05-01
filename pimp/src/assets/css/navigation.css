@@ -1,0 +1,425 @@
+/* Бічне меню навігації */
+.navigation-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: max-content;
+  min-width: 220px;
+  max-width: calc(100vw - 40px);
+  height: 100vh;
+  background-color: #f5f5f5;
+  border-right: 2px solid #ddd;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.navigation-sidebar.open {
+  transform: translateX(0);
+}
+
+.navigation-sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* Заголовок меню */
+.nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  padding: 40px !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  z-index: 1001;
+}
+
+/* Список навігації */
+.nav-list {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* Елементи списку */
+.nav-list li {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Посилання */
+.nav-link {
+  display: block;
+  padding: 12px 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background-color: #e8e8e8;
+  color: #000;
+  transform: translateX(3px);
+}
+
+/* Активна навігація */
+.nav-link.active,
+.nav-list li.active .nav-link {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link.active:hover {
+  background-color: #45a049;
+}
+
+.navigation-toggle-button {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1002;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.navigation-toggle-button span {
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 3px;
+  background: currentColor;
+  border-radius: 999px;
+  transform-origin: center;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.navigation-toggle-button span:nth-child(1) {
+  transform: translateY(-9px);
+}
+
+.navigation-toggle-button span:nth-child(2) {
+  transform: translateY(0);
+}
+
+.navigation-toggle-button span:nth-child(3) {
+  transform: translateY(9px);
+}
+
+.navigation-toggle-button.active span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+
+.navigation-toggle-button.active span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.navigation-toggle-button.active span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.navigation-toggle-button:hover span {
+  background: #111;
+}
+
+.hidden-on-scroll {
+  opacity: 0;
+  transform: translateY(-140%);
+  pointer-events: none;
+}
+
+/* Кнопка перемикання теми */
+.theme-toggle-button {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 1002;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-button:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.theme-toggle-button .toggle-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+/* Режим світла (за замовчуванням) */
+html[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --border-color: #ddd;
+  --sidebar-bg: #f5f5f5;
+  --link-hover-bg: #e8e8e8;
+  --nav-bg: #f5f5f5;
+}
+
+/* Режим читання - жовтий фон як старий папір */
+html[data-theme="reading"] {
+  --bg-color: #fffacd;
+  --text-color: #333333;
+  --border-color: #e6d9a8;
+  --sidebar-bg: #fffacd;
+  --link-hover-bg: #f0e68c;
+  --nav-bg: #fffacd;
+}
+
+/* Темний режим */
+html[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e8e8e8;
+  --border-color: #404040;
+  --sidebar-bg: #2a2a2a;
+  --link-hover-bg: #3a3a3a;
+  --nav-bg: #2a2a2a;
+}
+
+/* Застосування кольорів темам */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.navigation-sidebar {
+  background-color: var(--sidebar-bg);
+  border-right: 2px solid var(--border-color);
+}
+
+.nav-title {
+  background-color: var(--nav-bg);
+  color: var(--text-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-list li {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-link {
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: var(--link-hover-bg);
+  color: var(--text-color);
+}
+
+/* Для темного режиму - відбір тексту */
+html[data-theme="dark"] .nav-link.active,
+html[data-theme="dark"] .nav-list li.active .nav-link {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+/* Скролбар для темного режиму */
+html[data-theme="dark"] .navigation-sidebar::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+html[data-theme="dark"] .navigation-sidebar::-webkit-scrollbar-thumb {
+  background: #666666;
+}
+
+html[data-theme="dark"] .navigation-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #888888;
+}
+
+/* Кнопки для темного режиму */
+html[data-theme="dark"] .navigation-toggle-button,
+html[data-theme="dark"] .theme-toggle-button {
+  background: #2a2a2a;
+  border-color: #404040;
+  color: var(--text-color);
+}
+
+html[data-theme="dark"] .navigation-toggle-button:hover,
+html[data-theme="dark"] .theme-toggle-button:hover {
+  background: #3a3a3a;
+}
+
+/* Кнопки для режиму читання */
+html[data-theme="reading"] .navigation-toggle-button,
+html[data-theme="reading"] .theme-toggle-button {
+  background: #fffacd;
+  border-color: #e6d9a8;
+}
+
+html[data-theme="reading"] .navigation-toggle-button:hover,
+html[data-theme="reading"] .theme-toggle-button:hover {
+  background: #f0e68c;
+}
+
+/* Скролінг меню */
+.navigation-sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.navigation-sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.navigation-sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.navigation-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Стилі для тіла сторінки */
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  padding: 80px !important;
+}
+
+/* Адаптив для мобільних пристроїв */
+@media (max-width: 900px) {
+  .navigation-sidebar {
+    min-width: min(260px, 70vw);
+    max-width: min(320px, 75vw);
+  }
+
+  .navigation-toggle-button,
+  .theme-toggle-button {
+    width: clamp(54px, 9vw, 72px);
+    height: clamp(54px, 9vw, 72px);
+  }
+
+  .navigation-toggle-button {
+    top: 10px;
+    left: 10px;
+    padding: 14px 0;
+  }
+
+  .navigation-toggle-button span {
+    width: clamp(40px, 6vw, 54px);
+    height: 4px;
+  }
+
+  .theme-toggle-button {
+    top: 10px;
+    right: 10px;
+  }
+
+  .theme-toggle-button .toggle-icon {
+    width: clamp(40px, 6vw, 54px);
+    height: clamp(40px, 6vw, 54px);
+  }
+
+  .hidden-on-scroll {
+    opacity: 0;
+    transform: translateY(-140%);
+    pointer-events: none;
+  }
+
+  .nav-title {
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .nav-link {
+    padding: 16px 18px;
+    font-size: 18px;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  body {
+    padding: 20px 16px !important;
+    padding-top: 110px !important;
+    font-size: 1rem;
+  }
+}
+
+/* Портретний режим на мобільних: трохи більший основний шрифт для зручного читання */
+@media (max-width: 900px) and (orientation: portrait) {
+  body {
+    font-size: 20px
+  }
+}
+
+#selection-action-button {
+  position: absolute;
+  display: none;
+}
+
+.text-highlight {
+  background-color: rgba(255, 235, 59, 0.5);
+  border-radius: 3px;
+}
